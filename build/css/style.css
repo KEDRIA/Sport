@@ -1423,6 +1423,7 @@ body {
   .order-form__name,
   .order-form__tel {
     width: 90%;
+    margin-right: 0;
     margin-bottom: 20px;
   }
 }
@@ -2676,6 +2677,11 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 625px) {
+  .footer-inner {
+    margin-bottom: 15px;
   }
 }
 .footer-text {
